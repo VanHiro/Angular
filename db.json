@@ -1,0 +1,48 @@
+{
+	"question": [
+		{
+		"title": "How do you fix this problem?",
+		"id": 1,
+        "text": "I dunno how to fix it, can you help?",
+        "tags":[
+            "python",
+            "machine learning",
+            "unsolvable"
+        ]
+        },
+        {
+        "title": "I keep getting this error message",
+        "id": 2,
+        "text": "I dunno what to do, can you help?",
+        "tags":[
+            "c#",
+            "singlepage application",
+            "programming"
+        ]
+        },
+        {
+        "title": "I want to edit only the first element of the array, who do I do that?",
+        "id": 3,
+        "text": "I tried a few methods but cannot seem to find the right one, can you help?",
+        "tags":[
+            "javascript",
+            "methods of the array",
+            "programming"
+        ]
+        }
+    ],
+    "userinfo":[
+        {
+            "nickname": "pinco",
+            "id": "pallo",
+            "active": "now",
+            "views": 235
+        }
+    ],
+    "usersInteraction": [
+        {
+            "votes": 75,
+            "bookmarked": 36
+        }
+    ]
+}

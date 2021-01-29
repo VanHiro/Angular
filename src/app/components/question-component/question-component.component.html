@@ -1,0 +1,23 @@
+<div class="body">
+<h2>Welcome to my first Angular work</h2>
+
+<!--utilizzo una direttiva angular in questo caso *ngFor=""-->
+
+<!-- <ul *ngFor="let question of questions.slice(2,3)" *ngIf="true"> -->
+<ul *ngFor="let question of questions">   
+    <li>
+        <span>Question title: {{ question.title }}</span>
+    </li>
+    <li>
+        <span>Question contents: {{ question.text }}</span>
+    </li>
+    <li>
+        <span>Author ID: {{ question.id }}</span>
+    </li>
+    <li>
+        <span>Tags: {{ question.tags }} </span>
+    </li>
+</ul>
+</div>
+
+<div *ngIf="error" class="QuestionComponentComponent error">Attenzione si è verificato un errore {{error.QuestionComponentComponent}}</div>
